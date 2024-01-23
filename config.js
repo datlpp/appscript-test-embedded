@@ -5,3 +5,5 @@ function errorHandler(fn = () => {}, ...rest) {
     console.log(`🆘 Error::`, error.message);
   }
 }
+
+window.errorHandler = errorHandler;
